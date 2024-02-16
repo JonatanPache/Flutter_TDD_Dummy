@@ -3,7 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:tdd_tutorial/src/authentication/domain/entities/user.dart';
 import 'package:tdd_tutorial/src/authentication/domain/repositories/authentication_repository.dart';
-import 'package:tdd_tutorial/src/authentication/domain/usercases/get_users.dart';
+import 'package:tdd_tutorial/src/authentication/domain/usecases/get_users.dart';
 
 import 'create_user_test_test.dart';
 
