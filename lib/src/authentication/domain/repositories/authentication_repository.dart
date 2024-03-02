@@ -1,5 +1,3 @@
-import 'package:dartz/dartz.dart';
-import 'package:tdd_tutorial/core/errors/failure.dart';
 import 'package:tdd_tutorial/core/utils/typedef.dart';
 import 'package:tdd_tutorial/src/authentication/domain/entities/user.dart';
 

@@ -64,4 +64,24 @@ void main() {
       expect(result, equals(tJson));
     });
   });
+
+
+  group('copyWith', () {
+    test('should return a [UserModel] with the right data', () {
+      // arrange
+
+      // act
+      final result = tModel.copyWith(name: 'Paul');
+      // final tJson = jsonEncode({
+      //   "id": "1",
+      //   "avatar": "_empty.avatar",
+      //   "createdAt": "_empty.createdAt",
+      //   "name": "_empty.name",
+      // });
+      expect(result.name, equals('Paul'));
+    });
+  });
+
+
+
 }
