@@ -10,14 +10,10 @@ class CreateUser extends UseCaseWithParams<void, CreateUserParams> {
 
   @override
   ResultVoid call(CreateUserParams params) async => _repository.createUser(
-      createdAt: params.createdAt, name: params.name, avatar: params.avatar);
-
-  // ResultVoid createUser({
-  //   required String createdAt,
-  //   required String name,
-  //   required String avatar,
-  // }) async =>
-  //     _repository.createUser(createdAt: createdAt, name: name, avatar: avatar);
+        createdAt: params.createdAt,
+        name: params.name,
+        avatar: params.avatar,
+      );
 }
 
 class CreateUserParams extends Equatable {

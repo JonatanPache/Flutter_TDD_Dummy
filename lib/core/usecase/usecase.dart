@@ -9,5 +9,6 @@ abstract class UseCaseWithParams<Type, Params> {
 abstract class UseCaseWithoutParams<Type> {
   const UseCaseWithoutParams();
 
+  //
   ResultFuture<Type> call();
 }
